@@ -1,12 +1,12 @@
 #Human Activity Recognition Using Smartphones Data Set 
 =================
 
-##Data Collection
+## Data Collection
 The variables selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.
 Data was collected on 30 subjects performing six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).
 These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. 
 
-##Data Manipulation
+## Data Manipulation
 Then the data were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. 
 Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -15,7 +15,7 @@ Also the magnitude of these three-dimensional signals were calculated using the 
 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ. (Note the 'f' to indicate frequency domain signals). 
 
-##Data Label Names
+## Data Label Names
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 All linear acceleration variables (include 'Acc', but not 'Jerk' in name) are in units of standard earth gravity 'g'.
@@ -46,7 +46,7 @@ std(): Standard deviation
 Then, the mean of each variable was computed across each unique set of subject/activity.
 
 
-#Variable List
+# Variable List
 The complete list of variables, along with their column number in brackets, included in the dataset are:
 
  [1] "Activity"                       
