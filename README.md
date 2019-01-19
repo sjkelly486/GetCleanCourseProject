@@ -5,13 +5,13 @@ Version 1.0
 ##Original Experimental Team
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
-DITEN - Universit‡ degli Studi di Genova.
+DITEN - Universit√† degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
 ==================================================================
 
-##Original Study Design - Explanation copied from original experimental team.
+## Original Study Design - Explanation copied from original experimental team.
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
 Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. 
 Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. 
@@ -24,7 +24,7 @@ The gravitational force is assumed to have only low frequency components, theref
 From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details. 
 
 
-##Further Data Reduction - Work performed by me on the data set provided by original experimental team.
+## Further Data Reduction - Work performed by me on the data set provided by original experimental team.
 The data set collected by the researchers listed above has been transformed into a smaller, tidy dataset with fewer variables. 
 The original data set contained multiple sets of data for each combination of subject/activity.
 
