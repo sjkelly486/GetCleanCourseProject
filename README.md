@@ -1,5 +1,5 @@
 ==================================================================
-#Human Activity Recognition Using Smartphones Dataset
+# Human Activity Recognition Using Smartphones Dataset
 Version 1.0
 ==================================================================
 ##Original Experimental Team
@@ -33,14 +33,15 @@ All of the operations I performed to generate the new tidy data set are document
  -Extracts only the measurements on the mean and standard deviation for each measurement.
  -Uses descriptive activity names to name the activities in the data set
  -Appropriately labels the data set with descriptive variable names.
- -From the data set in previous, creates a second, independent tidy data set with the average of each variable for each activity and each subject. Exports this tidy data set to 'PhoneAccMean.txt'
+ -From the data set in previous, creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+ -Exports this tidy data set to 'PhoneAccMean.txt'
 
 'PhoneAccMean.txt' could be read back into R using read.table(header=TRUE).
 
 
 
 
-##For each unique combination of Activity/Subject the mean value of the following variables are provided:
+## For each unique combination of Activity/Subject the mean value of the following variables are provided:
 ======================================
 
 - Triaxial acceleration and jerk from the accelerometer (total acceleration) and the estimated body acceleration.
@@ -57,7 +58,7 @@ All variable names are readable.
 
 
 
-##The dataset includes the following files:
+## The dataset includes the following files:
 =========================================
 
 - 'README.txt'
@@ -74,7 +75,7 @@ All variable names are readable.
 
 For more information about this dataset contact: activityrecognition@smartlab.ws
 
-License:
+## License:
 ========
 Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
 
