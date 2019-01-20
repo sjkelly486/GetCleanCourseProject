@@ -45,11 +45,12 @@ alldata <- rbind(alldatatest,alldatatrain)
 ##======================================
 # 2 - Extract Only Mean and Standard Deviation Data
 ##======================================
-meanindex<-grep("mean",colnames(alldata))
-stdindex<-grep("std",colnames(alldata))
+meanindex<-grep("mean()",colnames(alldata),fixed=TRUE)
+stdindex<-grep("std()",colnames(alldata))
 keepindex <- sort(c(1,2,meanindex,stdindex))
 
 alldata<-alldata[,keepindex]
+
 ##======================================
 # 3 - Add descriptive Activity Labels
 ##======================================
@@ -61,4 +62,9 @@ alldata<-mutate(alldata,Activity = activitykey$V2[Activity])
 ##======================================
 alldata_meansummary<- alldata %>% group_by(Activity,Subject) %>% summarise_all("mean")
 
+
+
+##======================================
+#Write tidy data set to text file
+##======================================
 write.table(alldata_meansummary,"PhoneAccMean.txt",row.name=FALSE)
